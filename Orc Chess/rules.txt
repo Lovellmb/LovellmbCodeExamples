@@ -1,0 +1,57 @@
+Rules- 
+game is won when your opponent has no king pieces remaining
+there is no 'check' or 'checkmate' 
+
+BOMB TILES
+    bomb tiles turn pawns and knights into bombers. 
+    all other pieces disarm bomb tiles
+
+
+Piece movements
+
+
+
+PAWN - 
+    moves like regular pawn after first move. During first move, it can move one space diagonally.
+    pawns can promote to 'knights' (not normal chess knights) after taking 2 pieces
+    pawns can promote to cavalry after taking a cavalry piece
+    pawns can promote to Bombers by stepping on a bomb tile
+    Pawns can promote to Super kings by reaching the other side of the board
+
+KNIGHT -
+    moves one tile in any direction
+    knights can promote to a king after taking 2 pieces
+    knights can promote to cavalry after taking a cavalry piece
+    knights can promote to Super kings by reaching the other side of the board
+
+KING - 
+    moves 1 tile diagonally or 2 tiles in a cardinal direction
+    kings can promote to Super kings by reaching the other side of the board
+Bomber- 
+    moves 1 space in any direction
+    when a bomber is taken by any piece other than an archer, the attacking piece is also destroyed
+
+NINJA-
+    moves up to 3 spaces in any direction
+    the only piece that can move through other pieces
+
+ARCHER- 
+    moves one space in cardinal directions
+    after moving, can then take any unit that is exactly 2 spaces away in a cardnial direction (ignoring piece in between)
+    immune to bomber effect
+
+Cavalry- 
+    litterally just a rook
+    move unlimited tiles in cardinal directions
+    if taken by pawn or knight, the horse gets stolen
+
+Swordsman- 
+    literally just a bishop
+    move unlimited tiles diagonally
+
+Queen- 
+    literally just a queen
+    move unlimited tiles diagonally or in cardinal directions
+
+Super king- 
+    same movement as queen, but counts as a king for game over purposes
